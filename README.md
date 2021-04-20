@@ -6,5 +6,5 @@
 
 <p> A to-do app made with HTML, CSS, Javascript </p>
 <p> Reference from : https://youtu.be/dtKciwk_si4 </p>
-### Live at:  https://roshaen.github.io/to-do/
+Live at:  https://roshaen.github.io/to-do/
 
