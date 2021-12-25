@@ -3,7 +3,7 @@ const input = document.getElementById("input");
 const todosUL = document.getElementById("todos");
 
 const todos = JSON.parse(localStorage.getItem("todos"));
-
+ 
 if (todos) {
     todos.forEach((todo) => {
         addTodo(todo);
@@ -23,7 +23,7 @@ function addTodo(todo) {
         todoText = todo.text;
     }
 
-    if (todoText) {
+    if (todoText.trim()) {
         const todoEl = document.createElement("li");
         if (todo && todo.completed) {
             todoEl.classList.add("completed");
